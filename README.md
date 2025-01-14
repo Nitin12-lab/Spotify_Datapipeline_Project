@@ -36,6 +36,11 @@ Spotipy is a Python library for accessing Spotify's Web API, offering comprehens
 
 ---
 
+## Architecture
+![spotify ETL architecture](https://github.com/user-attachments/assets/c5fb4247-26ec-4817-98d8-0375b28eef6c)
+
+---
+
 ## Steps to Implement the Pipeline 🛤️🔄📂
 
 ### 1. Extract Data from Spotify API 🎶📥💻
