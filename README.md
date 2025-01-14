@@ -78,14 +78,6 @@ Spotipy is a Python library for accessing Spotify's Web API, offering comprehens
 
 ---
 
-## ResultsRepository Structure 📂📁🗂️
-|-- README.md                                # Project documentation
-|-- spotify_api_data_extract.py              # Extracting raw data from Spotify API
-|-- spotify_transformation_load_function.py  # Transforming raw data into analytical format
-
-
----
-
 ## Technologies Used 💻☁️🛠️
 - **Programming Languages**: Python
 - **Cloud Services**: AWS S3, AWS Lambda, AWS Glue, AWS Athena, AWS CloudWatch
