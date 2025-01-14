@@ -53,7 +53,7 @@ Spotipy is a Python library for accessing Spotify's Web API, offering comprehens
 ### 4. Use AWS Lambda for Extraction and Transformation 🖋️⚙️📊
 - Deploy Python scripts in AWS Lambda to handle data extraction.
 - Perform transformations to organize data into analytics-ready formats.
-- Save the transformed data in a separate S3 bucket.
+- Save the transformed data in a separate S3 bucket. So one s3 bucket contains the raw data and the other contains the transformed data.
 
 ### 5. Organize Data with AWS Glue 📚🔍📋
 - Set up Glue Crawler to scan the S3 bucket and infer schemas.
@@ -73,33 +73,10 @@ Spotipy is a Python library for accessing Spotify's Web API, offering comprehens
 
 ---
 
-## Repository Structure 📂📁🗂️
-```
-|-- Jupyter_Notebook/        # Scripts for initial API data extraction
-|-- AWS_Lambda/              # Python scripts for Lambda functions
-|-- S3_Bucket_Structure/     # Example folder organization for S3
-|-- Glue_Athena/             # Glue and Athena configuration files
-|-- README.md                # Project documentation
-|-- requirements.txt         # Python dependencies
-```
-
----
-
 ## Technologies Used 💻☁️🛠️
 - **Programming Languages**: Python
 - **Cloud Services**: AWS S3, AWS Lambda, AWS Glue, AWS Athena, AWS CloudWatch
 - **Libraries**: Spotipy, Boto3
-
----
-
-## How to Run the Project 🏃‍♂️⚙️🚀
-1. Clone this repository to your local machine.
-2. Install dependencies using `pip install -r requirements.txt`.
-3. Configure AWS credentials using the AWS CLI.
-4. Test API extraction locally with the provided Jupyter Notebook.
-5. Deploy Lambda functions and configure triggers in CloudWatch.
-6. Validate data transformation and storage in S3.
-7. Query and analyze the data using Glue and Athena.
 
 ---
 
@@ -114,8 +91,4 @@ Spotipy is a Python library for accessing Spotify's Web API, offering comprehens
 - [Spotify Web API](https://developer.spotify.com/documentation/web-api/)
 - [Spotipy Documentation](https://spotipy.readthedocs.io/)
 - [AWS Documentation](https://aws.amazon.com/documentation/)
-
----
-
-For questions or contributions, please contact [Your Name]. 🎤📬🤝
 
